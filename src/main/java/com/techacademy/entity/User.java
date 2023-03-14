@@ -30,7 +30,7 @@ public class User {
     @Column(length = 20, nullable = false)
     private String name;
 
-    /** 性別。2桁。列挙型（文字列） */
+    /** 性別。2桁。列挙型（文字列）*/
     @Column(length = 2)
     @Enumerated(EnumType.STRING)
     private Gender gender;
